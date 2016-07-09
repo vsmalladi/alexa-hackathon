@@ -1,0 +1,20 @@
+GetNewFactIntent a fact
+GetNewFactIntent a power rangers fact
+GetNewFactIntent a rangers fact
+GetNewFactIntent tell me a fact
+GetNewFactIntent tell me a rangers fact
+GetNewFactIntent tell me a power rangers fact
+GetNewFactIntent give me a fact
+GetNewFactIntent give me a power rangers fact
+GetNewFactIntent give me a rangers fact
+GetNewFactIntent tell me trivia
+GetNewFactIntent tell me power rangers trivia
+GetNewFactIntent tell me rangers trivia
+GetNewFactIntent give me trivia
+GetNewFactIntent give me power rangers trivia
+GetNewFactIntent give me rangers trivia
+GetNewFactIntent give me some information
+GetNewFactIntent give me some power rangers information
+GetNewFactIntent give me some rangers information
+GetNewFactIntent tell me something
+GetNewFactIntent give me something
