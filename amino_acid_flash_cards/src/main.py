@@ -450,12 +450,12 @@ def handle_get_help_request(intent, session):
 
 def handle_finish_session_request(intent, session):
     """
-    End the session with a "Good bye!"
+    End the session with a message
     if the user wants to quit the game
     """
     attributes = session['attributes']
     reprompt_text = None
-    speech_output = "Thanks for playing Flash Cards!"
+    speech_output = "Thanks for playing Amino Acid Quiz!"
     should_end_session = True
     return build_response(attributes,
                           build_speechlet_response_without_card(speech_output, reprompt_text, should_end_session))
