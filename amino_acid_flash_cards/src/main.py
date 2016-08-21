@@ -388,7 +388,7 @@ def handle_answer_request(intent, session):
             speech_output = "" if intent['name'] == "DontKnowIntent" else "That answer is "
             speech_output = (speech_output + speech_output_analysis + "Yog got "
                              + str(current_score) + " out of " + str(GAME_LENGTH)
-                             + " questions correct. Thank you for learning Flash"
+                             + " questions correct. Thank you for learning Amino Acids"
                              " Cards with Alexa!")
             reprompt_text = None
             should_end_session = True
@@ -406,7 +406,7 @@ def handle_answer_request(intent, session):
 
             speech_output = "" if user_gave_up == "DontKnowIntent" else "That answer is "
             speech_output = (speech_output + speech_output_analysis +
-                             "Your score is " +
+                             " Your score is " +
                              str(current_score) + '. ' + reprompt_text)
             attributes = {"speech_output": reprompt_text,
                           "reprompt_text": reprompt_text,
