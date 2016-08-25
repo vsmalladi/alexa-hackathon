@@ -239,7 +239,7 @@ def on_session_ended(session_ended_request, session):
 
 ANSWER_COUNT = 1
 GAME_LENGTH = 5
-CARD_TITLE = "Chemistry Flash Cards"  # Be sure to change this for your skill.
+CARD_TITLE = "Amino Acid Flash Cards"  # Be sure to change this for your skill.
 
 # --------------- Functions that control the skill's behavior -------------
 

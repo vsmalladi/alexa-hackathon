@@ -7,9 +7,9 @@ AnswerOnlyIntent {Answer}
 AMAZON.StartOverIntent start game
 AMAZON.StartOverIntent new game
 AMAZON.StartOverIntent start amino acid quiz
-AMAZON.StartOverIntent start new game
+AMAZON.StartOverIntent start a new game
 AMAZON.StartOverIntent start a game
-AMAZON.StartOverIntent start a new  game
+AMAZON.StartOverIntent launch amino acid quiz
 
 
 AMAZON.HelpIntent help
