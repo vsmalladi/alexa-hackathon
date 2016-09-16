@@ -250,7 +250,7 @@ def get_welcome_response():
     add those here
     """
 
-    speech_output = ("Let's test your skills with FlashCards. I will ask you " +
+    speech_output = ("Let's test your skills with Amino Acids. I will ask you " +
                      str(GAME_LENGTH) + " questions, try to get as many right" +
                      "as you can. Just say the answer. Let's begin. ")
     should_end_session = False
@@ -386,7 +386,7 @@ def handle_answer_request(intent, session):
         # (zero-indexed) and can exit the game session
         if current_questions_index == GAME_LENGTH - 1:
             speech_output = "" if intent['name'] == "DontKnowIntent" else "That answer is "
-            speech_output = (speech_output + speech_output_analysis + "Yog got "
+            speech_output = (speech_output + speech_output_analysis + " You got "
                              + str(current_score) + " out of " + str(GAME_LENGTH)
                              + " questions correct. Thank you for learning Amino Acids"
                              " Cards with Alexa!")
