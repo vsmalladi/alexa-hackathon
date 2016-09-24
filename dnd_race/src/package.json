@@ -1,0 +1,12 @@
+{
+  "name": "DnD Races",
+  "version": "1.0.0",
+  "description": "Decision Tree to choose Race from DnD 5th Edition",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.0"
+  },
+  "devDependencies": {},
+  "author": "Venkat Malladi",
+  "license": "SEE LICENSE IN LICENSE.md"
+}
