@@ -28,11 +28,11 @@ var nodes = [{ "node": 1, "message": "Can your character see well in the dark?",
 
 // Answers & descriptions
              { "node": 9, "message": "Dragonborn", "yes": 0, "no": 0, "description": "A highly self-sufficient and clannish people. Created from dragon eggs either by the draconic gods themselves or by powerful dragons." },
-             { "node": 10, "message": "Half-orc", "yes": 0, "no": 0, "description": "Regard battle scars as tokens of pride and ornamental scars as things of beauty. Half-orcs are typically born in wild frontiers where human and orc tribes come into contact" },
+             { "node": 10, "message": "Half-orc", "yes": 0, "no": 0, "description": "Regard battle scars as tokens of pride and ornamental scars as things of beauty. Half-orcs are typically born in wild frontiers where human and orc tribes come into contact." },
              { "node": 11, "message": "Half-elf", "yes": 0, "no": 0, "description": "Walking in two worlds but truly belonging to neither, half-elves combine the best qualtiies of both races." },
              { "node": 12, "message": "Dwarf", "yes": 0, "no": 0, "description": "The cheif unit of dwarven society is the clan. Bold and hardy, they are knon as skilled warriors, miners ,and workers." },
              { "node": 13, "message": "Halfling", "yes": 0, "no": 0, "description": "Halflings are adept at fitting into a community of humans, dwarves, or elves." },
-             { "node": 14, "message": "Human", "yes": 0, "no": 0, "description": "Humans are the most adaptabe and amitious people. They have widley varying tasts , morals ,and customs." },
+             { "node": 14, "message": "Human", "yes": 0, "no": 0, "description": "Humans are the most adaptabe and ambitious people. They have widley varying tasts , morals ,and customs." },
              { "node": 15, "message": "Tiefling", "yes": 0, "no": 0, "description": "Live in small minorities found mostly in human cicites or town, oten in the roughest quarters. Tieflings are derived from human bloodlines imprinted with their infernal hertiage." },
              { "node": 16, "message": "Gnome", "yes": 0, "no": 0, "description": "A gnome's energy and enthusiasm for living shines through every inch of their tiny body. Their pernailty is writ large in thier appearance." },
              { "node": 17, "message": "Elf", "yes": 0, "no": 0, "description": "Elves are a magical peple of otherwordly grace, living in the world but not entirely part of it. They take up adventuring out of wanderlust." },
@@ -57,7 +57,7 @@ var promptToStartMessage = "Say yes to continue, or no to end the game.";
 var promptToSayYesNo = "Say yes or no to answer the question.";
 
 // This is the response to the user after the final question when Alex decides on what group choice the user should be given
-var decisionMessage = "I think you would should play as a";
+var decisionMessage = "I think you should play as a";
 
 // This is the prompt to ask the user if they would like to hear a short description of thier chosen profession or to play again
 var playAgainMessage = "Say 'tell me more' to hear a short description for this race, or do you want to play again?";
