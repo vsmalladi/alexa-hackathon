@@ -7,8 +7,8 @@ DescriptionIntent description please
 AMAZON.StopIntent stop
 AMAZON.StopIntent off
 AMAZON.StopIntent shut up
-AMAZON.StartOverIntent launch dnd race chooser
-AMAZON.StartOverIntent start dnd race chooser
+AMAZON.StartOverIntent launch unofficial d. n. d. chooser
+AMAZON.StartOverIntent start unofficial d. n. d. chooser
 AMAZON.StartOverIntent start over
 AMAZON.StartOverIntent restart
 AMAZON.StartOverIntent start again
